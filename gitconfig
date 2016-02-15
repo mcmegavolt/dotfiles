@@ -30,15 +30,15 @@
     cs = branch --contains
     unstage = reset --
 [user]
-    name = vlad
-    email = sumskyi@gmail.com
+    name = Oleksandr Ponomarenko
+    email = mcmegavolt@gmail.com
 [http]
     sslVerify = false
 [branch "master"]
     rebase = true
 [credential]
-	helper = cache
+    helper = cache
 [pull]
-	rebase = true
+    rebase = true
 [push]
-	default = simple
+    default = simple
