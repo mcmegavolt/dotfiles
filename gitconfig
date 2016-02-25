@@ -1,44 +1,44 @@
-[core]
-    editor = gvim -f
-    excludesfile = ~/.gitignore
-[color]
-    branch = auto
-    diff = auto
-    status = auto
-[color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
-[color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
-[color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
-[alias]
-    st = status
-    ci = commit
-    br = branch
-    co = checkout
-    df = diff
-    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    re = checkout HEAD
-    ch = cherry-pick
-    cs = branch --contains
-    unstage = reset --
 [user]
-    name = Oleksandr Ponomarenko
-    email = mcmegavolt@gmail.com
-[http]
-    sslVerify = false
-[branch "master"]
-    rebase = true
+	email = mcmegavolt@gmail.com
+	name = Alexander Ponomarenko
 [credential]
-    helper = cache
+	helper = cache
 [pull]
-    rebase = true
+	rebase = true
 [push]
-    default = simple
+	default = simple
+[branch "master"]
+  rebase = true
+[core]
+  editor = atom
+  excludesfile = ~/.gitignore
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  re = checkout HEAD
+  ch = cherry-pick
+  cs = branch --contains
+  unstage = reset --
+[http]
+  sslVerify = false
