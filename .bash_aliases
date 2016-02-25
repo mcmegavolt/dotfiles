@@ -1,9 +1,9 @@
 # Manage packages
-alias install='sudo apt-get install'
-alias agi='sudo apt-get install'
-alias agr='sudo apt-get remove'
-alias agu='sudo apt-get update'
-alias acs='apt-cache search'
+alias inst='sudo apt-get install'
+alias rem='sudo apt-get remove'
+alias arem='sudo apt-get autoremove'
+alias upgr='sudo apt-get upgrade'
+alias upd='sudo apt-get update'
 
 # Manage files and folders
 alias cp='cp -iv'
