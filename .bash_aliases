@@ -1,3 +1,4 @@
+
 # Rails
 alias dcms='rake db:drop && rake db:create && rake db:migrate && rake db:seed'
 
@@ -5,6 +6,8 @@ alias dcms='rake db:drop && rake db:create && rake db:migrate && rake db:seed'
 alias projects='cd ~/rails_apps'
 alias imc='cd ~/rails_apps/dev-imc'
 alias core='cd ~/rails_apps/movinga-core'
+alias kasa='cd ~/rails_apps/fopify'
+alias funnel='cd ~/rails_apps/movinga-bookingfunnel'
 
 alias inst='sudo apt-get install'
 alias rem='sudo apt-get remove'
@@ -30,3 +33,4 @@ alias e='exit'
 alias s='sudo'
 alias lock='gnome-screensaver-command --lock'
 alias mounted='mount | column –t'
+
