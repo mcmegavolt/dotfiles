@@ -1,3 +1,5 @@
+# Fix files permissions created by Docker
+alias givemyfiles='sudo chown -R ap:ap ./* && sudo chown -R ap:ap ./.*'
 
 # Rails
 alias dcms='rake db:drop && rake db:create && rake db:migrate && rake db:seed'
